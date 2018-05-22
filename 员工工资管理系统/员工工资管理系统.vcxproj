@@ -89,6 +89,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,6 +147,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="change_employee.cpp" />
+    <ClCompile Include="count_calculate_salemanager.cpp" />
+    <ClCompile Include="delete_employee.cpp" />
+    <ClCompile Include="loge.cpp" />
+    <ClCompile Include="main_menu.cpp" />
+    <ClCompile Include="main_read_add.cpp" />
+    <ClCompile Include="out_employee.cpp" />
+    <ClCompile Include="out_one_employee.cpp" />
+    <ClCompile Include="search_employee.cpp" />
+    <ClCompile Include="sort_Salary.cpp" />
+    <ClCompile Include="statistics.cpp" />
+    <ClCompile Include="welcome_page.cpp" />
+    <ClCompile Include="writefile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="employee.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
