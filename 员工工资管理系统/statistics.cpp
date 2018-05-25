@@ -1,5 +1,6 @@
 #include "employee.h"
 
+///////////////////////////////////////////////////
 //以下是计算功能函数
 
 //统计某部门平均工资
@@ -390,32 +391,6 @@ void out_eg(struct employee * S)
 		puts("                                                                                                *");
 		puts("                                                                                                    *");
 		puts("                                                                                                        *");
-	/*	puts("                                                                                                    *");
-		puts("                                                                                                *");
-		puts("                                                                                            *");
-		puts("                                                                                        *");
-		puts("                                                                                    *");
-		puts("                                                                                *");
-		puts("                                                                            *");
-		puts("                                                                        *");
-		puts("                                                                    *");
-		puts("                                                                *");
-		puts("                                                            *");
-		puts("                                                        *");
-		puts("                                                    *");
-		puts("                                                *");
-		puts("                                            *");
-		puts("                                        *");
-		puts("                                    *");
-		puts("                                *");
-		puts("                            *");
-		puts("                        *");
-		puts("                    *");
-		puts("                *");
-		puts("            *");
-		puts("        *");
-		puts("    *");
-		puts("*");*/
 	}
 }
 

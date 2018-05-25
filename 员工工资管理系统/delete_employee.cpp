@@ -41,7 +41,7 @@ struct employee * delete_employee(struct employee *S)
 	{
 		printf("\n没有找到工号为 %d 的员工!\n", numberD);
 		system("pause");
-		delete_employee(S);
+		return S;
 	}
 	if (p != NULL)
 	{
@@ -67,6 +67,7 @@ struct employee * delete_employee(struct employee *S)
 		case 0:
 			puts("\n已取消删除!\n");
 			return S;
+			break;
 		case 1:
 			break;
 		default:

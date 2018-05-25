@@ -88,15 +88,6 @@ struct employee * add_employee(struct employee *S)//添加新员工信息
 			printf("请输入员工当月销售额:");
 			scanf("%lf", &(S->salesvolume));
 		}
-		else if(S->role == salemanager)
-		{
-			if (count_salemanager(count, S->department) == 1)
-			{
-				puts("添加员工信息失败!!");
-				system("pause");
-				return NULL;
-			}
-		}
 		puts("\n员工信息已添加!\n");
 		return S;
 	}
@@ -142,6 +133,7 @@ struct employee * add_employee(struct employee *S)//添加新员工信息
 		if(count_salemanager(count, q->department) == 1)
 		{
 			puts("添加员工信息失败!!");
+			number--;
 			return NULL;
 		}
 	}

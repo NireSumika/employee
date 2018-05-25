@@ -47,19 +47,7 @@ struct employee * sort_A_Salary(struct employee * S)
 			}
 			t = t->next;
 		}
-		/*if (max->last != NULL && max->next != NULL)
-		{
-			max->last->next = max->next;
-			max->next->last = max->last;
-		}
-		else if(max->last == NULL && max->next != NULL)
-		{
-			max->next->last = NULL;
-		}
-		else if(max->last != NULL && max->next == NULL)
-		{
-			max->last->next = NULL;
-		}*/
+		
 		if (max->last != NULL)
 		{
 			max->last->next = max->next;
