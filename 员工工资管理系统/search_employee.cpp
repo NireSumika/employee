@@ -71,7 +71,7 @@ void search_role(struct employee *S)
 			return;
 			break;
 		case 2:
-			puts("\n\n工号\t姓名\t年龄\t性别\t部门\t\t岗位\t\t工作时间\t销售额\t\t当月工资\n");
+			puts("\n\n工号\t姓名\t年龄\t性别\t部门\t\t岗位\t\t工作时间\t销售额\n");
 			while (S != NULL)
 			{
 				if (S->role == technician)
@@ -85,7 +85,7 @@ void search_role(struct employee *S)
 			return;
 			break;
 		case 3:
-			puts("\n\n工号\t姓名\t年龄\t性别\t部门\t\t岗位\t\t工作时间\t销售额\t\t当月工资\n");
+			puts("\n\n工号\t姓名\t年龄\t性别\t部门\t\t岗位\t\t工作时间\t销售额\n");
 			while (S != NULL)
 			{
 				if (S->role == saler)
@@ -99,7 +99,7 @@ void search_role(struct employee *S)
 			return;
 			break;
 		case 4:
-			puts("\n\n工号\t姓名\t年龄\t性别\t部门\t\t岗位\t\t工作时间\t销售额\t\t当月工资\n");
+			puts("\n\n工号\t姓名\t年龄\t性别\t部门\t\t岗位\t\t工作时间\t销售额\n");
 			while (S != NULL)
 			{
 				if (S->role == salemanager)
